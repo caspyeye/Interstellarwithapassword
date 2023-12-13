@@ -1,11 +1,26 @@
 :80 {
     reverse_proxy mathematics:8080
 # set your username here. Hashed password was made in step 2, and replace the existing hash with the new one.
-    basicauth /go {
-	interstellar $2a$14$Ud/ovLwv84eLUzk1uH9iLeyRVnPc6pRUGerZobe8j0uHJ.5pwqDL.
+	basicauth /go* {
+	schoologyinternal $2a$14$Ql89cKLhprpZeSHGO49pJ.5i5rg1cYj0l5fmrzhwBGugCTesa9NX2
 	}
 	basicauth / {
-        interstellar $2a$14$Ud/ovLwv84eLUzk1uH9iLeyRVnPc6pRUGerZobe8j0uHJ.5pwqDL.
+        schoologyinternal $2a$14$Ql89cKLhprpZeSHGO49pJ.5i5rg1cYj0l5fmrzhwBGugCTesa9NX2
+        }
+	basicauth /image-galleries* {
+        schoologyinternal $2a$14$Ql89cKLhprpZeSHGO49pJ.5i5rg1cYj0l5fmrzhwBGugCTesa9NX2
+        }
+	basicauth /diagnostic* {
+        schoologyinternal $2a$14$Ql89cKLhprpZeSHGO49pJ.5i5rg1cYj0l5fmrzhwBGugCTesa9NX2
+        }
+	basicauth /local-news* {
+        schoologyinternal $2a$14$Ql89cKLhprpZeSHGO49pJ.5i5rg1cYj0l5fmrzhwBGugCTesa9NX2
+        }
+	basicauth /events* {
+        schoologyinternal $2a$14$Ql89cKLhprpZeSHGO49pJ.5i5rg1cYj0l5fmrzhwBGugCTesa9NX2
+        }
+	basicauth /news {
+        schoologyinternal $2a$14$Ql89cKLhprpZeSHGO49pJ.5i5rg1cYj0l5fmrzhwBGugCTesa9NX2
         }
 
 }
